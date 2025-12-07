@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a137b33bedb74484d8de910f3ced4d6d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11105
+  packageName: 'CamelotVFX: Fire & Smoke'
+  packageVersion: v 1.0
+  assetPath: Assets/CamelotVFX_ Fire&Smoke/Materials/Flamethrower_v1.mat
+  uploadId: 29042

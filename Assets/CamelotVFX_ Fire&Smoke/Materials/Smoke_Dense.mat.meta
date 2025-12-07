@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b36b85814a9a684cb113be177d46797
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11105
+  packageName: 'CamelotVFX: Fire & Smoke'
+  packageVersion: v 1.0
+  assetPath: Assets/CamelotVFX_ Fire&Smoke/Materials/Smoke_Dense.mat
+  uploadId: 29042

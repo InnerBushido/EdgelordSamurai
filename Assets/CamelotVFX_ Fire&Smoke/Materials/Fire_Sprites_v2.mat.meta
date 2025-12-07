@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abc8b1d086a9c104a8e18e5b51bf10f4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11105
+  packageName: 'CamelotVFX: Fire & Smoke'
+  packageVersion: v 1.0
+  assetPath: Assets/CamelotVFX_ Fire&Smoke/Materials/Fire_Sprites_v2.mat
+  uploadId: 29042

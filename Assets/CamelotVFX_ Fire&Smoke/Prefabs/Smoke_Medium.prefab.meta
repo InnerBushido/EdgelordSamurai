@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 245eb0b7d89471f448ef7cfea26fa6a4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11105
+  packageName: 'CamelotVFX: Fire & Smoke'
+  packageVersion: v 1.0
+  assetPath: Assets/CamelotVFX_ Fire&Smoke/Prefabs/Smoke_Medium.prefab
+  uploadId: 29042

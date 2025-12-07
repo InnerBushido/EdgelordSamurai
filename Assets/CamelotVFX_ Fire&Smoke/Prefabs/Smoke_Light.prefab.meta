@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b224581d236db0a4999f5c808e57563d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11105
+  packageName: 'CamelotVFX: Fire & Smoke'
+  packageVersion: v 1.0
+  assetPath: Assets/CamelotVFX_ Fire&Smoke/Prefabs/Smoke_Light.prefab
+  uploadId: 29042

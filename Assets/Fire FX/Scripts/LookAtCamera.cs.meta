@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9182de9af59c5a941a83f0546c7ce5b5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14686
+  packageName: Fire FX
+  packageVersion: 1.0.1
+  assetPath: Assets/Fire FX/Scripts/LookAtCamera.cs
+  uploadId: 208711
