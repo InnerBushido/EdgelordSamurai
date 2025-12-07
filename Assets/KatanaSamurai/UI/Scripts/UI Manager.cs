@@ -37,6 +37,11 @@ public class UIManager : MonoBehaviour
     [SerializeField] private UnityEvent controllerSetupStartEvent;
     [SerializeField] private UnityEvent controllerSetupEndEvent;
     
+    [Header("Party Setup Screen")]
+    [SerializeField] private CanvasGroup  partySetupCanvas;
+    [SerializeField] private UnityEvent partySetupStartEvent;
+    [SerializeField] private UnityEvent partySetupEndEvent;
+    
     [Header("Tutorial Screen")]
     [SerializeField] private CanvasGroup tutorialScreenCanvas;
     [SerializeField] private UnityEvent tutorialScreenStartEvent;
@@ -123,6 +128,7 @@ public class UIManager : MonoBehaviour
         nan,
         StartScreen,
         ControllerSetup,
+        PartyModeSetup,
         TutorialScreen,
         InGame,
         GameWOver
@@ -178,6 +184,9 @@ public class UIManager : MonoBehaviour
             case State.ControllerSetup:
                 HideControllerSetupScreen();
                 break;
+            case State.PartyModeSetup:
+                HidePartySetupScreen();
+                break;
             case State.TutorialScreen:
                 HideTutorialScreen();
                 break;
@@ -198,6 +207,9 @@ public class UIManager : MonoBehaviour
                 break;
             case State.ControllerSetup:
                 ShowControllerSetupScreen();
+                break;
+            case State.PartyModeSetup:
+                ShowPartySetupScreen();
                 break;
             case State.TutorialScreen:
                 ShowTutorialScreen();
@@ -298,6 +310,14 @@ public class UIManager : MonoBehaviour
         LeanTween.alphaCanvas(controllerSetupCanvas, 1f, 1f);
         controllerSetupStartEvent.Invoke();
     }
+    
+    private void ShowPartySetupScreen()
+    {
+        Debug.Log("ShowPartySetupScreen() executing");
+        partySetupCanvas.gameObject.SetActive(true);
+        LeanTween.alphaCanvas(partySetupCanvas, 1f, 1f);
+        controllerSetupStartEvent.Invoke();
+    }
 
     private void HideControllerSetupScreen()
     {
@@ -306,6 +326,16 @@ public class UIManager : MonoBehaviour
         {
             controllerSetupCanvas.gameObject.SetActive(false);
             controllerSetupEndEvent.Invoke();
+        });
+    }
+    
+    private void HidePartySetupScreen()
+    {
+        Debug.Log("HidePartySetupScreen() executing");
+        LeanTween.alphaCanvas(partySetupCanvas, 0f, 1f).setOnComplete(() =>
+        {
+            partySetupCanvas.gameObject.SetActive(false);
+            partySetupEndEvent.Invoke();
         });
     }
 
@@ -470,6 +500,18 @@ public class UIManager : MonoBehaviour
         SwitchTutorialState(TutorialState.TutorialComplete);
         SwitchState(State.InGame);
         yield return new WaitForSeconds(3);
+        if (m_ControllerSelected)
+        {
+            SceneManager.LoadScene("CuttingSceneWithController");
+        }
+        else
+        {
+            SceneManager.LoadScene("CuttingSceneWithKatana");
+        }
+    }
+
+    public void SwitchToPartyModeScene()
+    {
         if (m_ControllerSelected)
         {
             SceneManager.LoadScene("CuttingSceneWithBall");
