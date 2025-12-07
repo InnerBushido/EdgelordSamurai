@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c8b8c494a674e274eb858af52ea1d7d3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11105
+  packageName: 'CamelotVFX: Fire & Smoke'
+  packageVersion: v 1.0
+  assetPath: Assets/CamelotVFX_ Fire&Smoke/Prefabs/Smoke_Dense.prefab
+  uploadId: 29042

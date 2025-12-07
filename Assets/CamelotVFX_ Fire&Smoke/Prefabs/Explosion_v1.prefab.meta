@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c76699131d6c1f24ea9d0980d05b1ae3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11105
+  packageName: 'CamelotVFX: Fire & Smoke'
+  packageVersion: v 1.0
+  assetPath: Assets/CamelotVFX_ Fire&Smoke/Prefabs/Explosion_v1.prefab
+  uploadId: 29042

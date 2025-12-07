@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ebd08049afa055a4eb01b2ad4373c92a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11105
+  packageName: 'CamelotVFX: Fire & Smoke'
+  packageVersion: v 1.0
+  assetPath: Assets/CamelotVFX_ Fire&Smoke/Materials/Smoke_Light.mat
+  uploadId: 29042
