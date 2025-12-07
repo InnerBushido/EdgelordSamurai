@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Edgelord Samurai/Scenes/CuttingScene.unity
     guid: d2ea0c6ccafcabb419f990a75608f1df
   - enabled: 0
-    path: Assets/Scenes/Main.unity
+    path: Assets/Ball Tracking Files/Scenes/Main.unity
     guid: 2fcc4b82aae5f9b40b2fccd628e4ce2d
+  - enabled: 1
+    path: Assets/Edgelord Samurai/Scenes/CuttingSceneWithBall.unity
+    guid: 5af9dc571971ade498bde8160c06ba7f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eab0f0949820d3340b515a0c9c40559d, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
