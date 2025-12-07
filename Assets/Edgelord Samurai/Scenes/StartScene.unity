@@ -7808,6 +7808,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1192765975}
+  - {fileID: 6328751059046922544}
+  - {fileID: 7492041715422685087}
   m_Father: {fileID: 1900732250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1387024427
@@ -11175,6 +11177,168 @@ Transform:
   m_Children: []
   m_Father: {fileID: 248131477}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6328751059046922543
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1369150073}
+    m_Modifications:
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.11999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.12000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.12000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.20822
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.55679
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.27468356
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6794262
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3074868
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.60694385
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 83.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 48.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169347665373646829, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_Name
+      value: (Controller) Evil_spirit_katana Sword Cutting To Follow
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169347665373646829, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7480636408319385107, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+    - {fileID: 3171108405324807117, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+    - {fileID: 8712695562444039419, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+--- !u!4 &6328751059046922544 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+  m_PrefabInstance: {fileID: 6328751059046922543}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7492041715422685086
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1369150073}
+    m_Modifications:
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.12000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.120000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.12000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.87622
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2967901
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.93183
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.34515402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07980502
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0786945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 40.981
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.184
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 6.967
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169347665373646829, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_Name
+      value: (VR Katana) Evil_spirit_katana Sword Cutting To Follow
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169347665373646829, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7480636408319385107, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+    - {fileID: 3171108405324807117, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+    - {fileID: 8712695562444039419, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+--- !u!4 &7492041715422685087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2293645036230647088, guid: fb3d5c7e72e30fd4ab7668b8f23689aa, type: 3}
+  m_PrefabInstance: {fileID: 7492041715422685086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
