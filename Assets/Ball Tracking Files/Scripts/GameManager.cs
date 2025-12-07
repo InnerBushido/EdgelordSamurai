@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         ResetGame();
     }
 
-    // Aktualisiere die Score-Anzeige nach dem Erhöhen des Scores
+    // Aktualisiere die Score-Anzeige nach dem ErhÃ¶hen des Scores
     public void shot()
     {
         currentTarget = null;
@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
-        // Setze den Score zurück
+        // Setze den Score zurÃ¼ck
         score = 0;
         scoreText.text = $"Score: {score.ToString()}";
         // Deaktiviere alle Targets
@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         {
             target.gameObject.SetActive(false);
         }
-        // Wähle ein zufälliges Target aus der Liste aus und aktiviere es
+        // WÃ¤hle ein zufÃ¤lliges Target aus der Liste aus und aktiviere es
         int randomIndex = Random.Range(0, targets.Count);
         currentTarget = targets[randomIndex];
         currentTarget.gameObject.SetActive(true);
@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
     public void TargetHit()
     {
-        // Wähle ein zufälliges Target aus der Liste aus und aktiviere es
+        // WÃ¤hle ein zufÃ¤lliges Target aus der Liste aus und aktiviere es
         int randomIndex = Random.Range(0, targets.Count);
         currentTarget = targets[randomIndex];
         currentTarget.gameObject.SetActive(true);

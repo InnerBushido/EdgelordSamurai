@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Edgelord Samurai/Scenes/CuttingSceneWithBall.unity
     guid: 96c23cf9e77dfc549964ae145c3923b8
   - enabled: 1
-    path: Assets/Edgelord Samurai/Scenes/CuttingSceneWithBallWithKatana.unity
+    path: Assets/Edgelord Samurai/Scenes/CuttingSceneWithBallWithKatana_Old.unity
     guid: 5af9dc571971ade498bde8160c06ba7f
   - enabled: 1
     path: Assets/KatanaSamurai/Scenes/MovieScene.unity

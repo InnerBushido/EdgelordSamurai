@@ -22,8 +22,8 @@ public class BallTracker : MonoBehaviour
     [SerializeField] private RawImage _rawImage2;
     [SerializeField] private TMPro.TextMeshProUGUI _fpsText;
 
-    private Scalar orangeHSVMin = new Scalar(4, 229, 49);   // Untere Grenze f�r Orange im HSV-Farbraum
-    private Scalar orangeHSVMax = new Scalar(10, 255, 255);  // Obere Grenze f�r Orange im HSV-Farbraum
+    private Scalar orangeHSVMin = new Scalar(0, 229, 49);   // Untere Grenze f�r Orange im HSV-Farbraum
+    private Scalar orangeHSVMax = new Scalar(5, 255, 255);  // Obere Grenze f�r Orange im HSV-Farbraum
 
     private bool isChecking = false;
     private int frameCount = 0;
@@ -53,6 +53,7 @@ public class BallTracker : MonoBehaviour
     private float yOffset = -0.2f;
 
     [SerializeField] private GameObject GUI_Spawn_Elements;
+    [SerializeField] private GameObject UI_Interactors_For_Menu;
 
     [SerializeField] private GameObject leftHandController;
     [SerializeField] private GameObject rightHandController;
@@ -156,6 +157,11 @@ public class BallTracker : MonoBehaviour
             activeFieldMover.GetComponent<Mover>().target = targetField.transform;
             activeFieldMover.GetComponent<Mover>().Init();
             GUI_Spawn_Elements.SetActive(false); // Deactivate GUI when field mover is active
+            
+            if (UI_Interactors_For_Menu != null)
+            {
+                UI_Interactors_For_Menu.SetActive(false);
+            }
         }
     }
 
@@ -169,6 +175,11 @@ public class BallTracker : MonoBehaviour
         {
             if (!GUI_Spawn_Elements.activeSelf)
             {
+                if (UI_Interactors_For_Menu != null)
+                {
+                    UI_Interactors_For_Menu.SetActive(true);
+                }
+                
                 // Setze das GUI doppelt so weit von der linken Auge-Position entfernt wie der Controller
                 GUI_Spawn_Elements.transform.position = leftEyeAnchor.transform.position + leftEyeAnchor.forward * 1f;
                 GUI_Spawn_Elements.transform.rotation = Quaternion.LookRotation(GUI_Spawn_Elements.transform.position - leftEyeAnchor.transform.position);
@@ -176,6 +187,11 @@ public class BallTracker : MonoBehaviour
             }
             else
             {
+                if (UI_Interactors_For_Menu != null)
+                {
+                    UI_Interactors_For_Menu.SetActive(false);
+                }
+                
                 GUI_Spawn_Elements.SetActive(false);
             }
         }
