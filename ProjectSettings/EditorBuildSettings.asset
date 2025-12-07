@@ -5,12 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Edgelord Samurai/Scenes/StartScene.unity
-    guid: 0c6c97a603a48a547b2c23f4348ebbe8
   - enabled: 1
     path: Assets/Edgelord Samurai/Scenes/CuttingScene.unity
     guid: d2ea0c6ccafcabb419f990a75608f1df
+  - enabled: 0
+    path: Assets/Scenes/Main.unity
+    guid: 2fcc4b82aae5f9b40b2fccd628e4ce2d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eab0f0949820d3340b515a0c9c40559d, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
