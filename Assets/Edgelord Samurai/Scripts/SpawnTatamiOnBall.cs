@@ -8,7 +8,8 @@ public class SpawnTatamiOnBall : MonoBehaviour
 
     private void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch)) // A button
+        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch) ||
+            OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch)) // A button
         {
             if (currentTatami != null)
             {
